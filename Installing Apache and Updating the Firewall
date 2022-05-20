@@ -1,0 +1,30 @@
+#update a list of packages in package manager
+sudo apt update
+
+#run apache2 package installation
+sudo apt install apache2
+
+
+
+#Verify the status of Apache Sever
+sudo systemctl status apache2
+
+
+ apache2.service - The Apache HTTP Server
+     Loaded: loaded (/lib/systemd/system/apache2.service; enabled; vendor preset: enabled)
+     Active: active (running) since Wed 2022-05-18 23:41:37 GMT; 2min 55s ago
+       Docs: https://httpd.apache.org/docs/2.4/
+   Main PID: 28698 (apache2)
+      Tasks: 55 (limit: 18938)
+     Memory: 5.0M
+     CGroup: /system.slice/apache2.service
+             ├─28698 /usr/sbin/apache2 -k start
+             ├─28699 /usr/sbin/apache2 -k start
+             └─28700 /usr/sbin/apache2 -k start
+
+May 18 23:41:37 snk5-Precision-5510 systemd[1]: Starting The Apache HTTP Server...
+May 18 23:41:37 snk5-Precision-5510 apachectl[28697]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to>
+May 18 23:41:37 snk5-Precision-5510 systemd[1]: Started The Apache HTTP Server.
+lines 1-15/15 (END)
+
+
