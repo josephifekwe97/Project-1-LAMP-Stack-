@@ -11,4 +11,4 @@
 
 
 ### Apache Server Default Page from the Brower
-![Apache Default Page](./Images/Apache%20server%20status.png "Apache Default page from the browers")
+![Apache Default Page](/Images/Apache%20Default%20Page.png)
